@@ -1,0 +1,37 @@
+body { 
+    margin: 0; 
+    overflow: hidden; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    user-select: none;
+}
+
+#ui { 
+    position: absolute; 
+    top: 20px; 
+    left: 20px; 
+    color: white; 
+    background: rgba(11, 11, 11, 0.85); 
+    padding: 20px; 
+    border-radius: 10px; 
+    pointer-events: none;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+    border: 1px solid #333;
+    z-index: 10;
+}
+
+h2 { 
+    margin-top: 0; 
+    color: #ff4500; 
+    font-size: 24px; 
+    letter-spacing: 1px; 
+}
+
+p { 
+    margin: 8px 0; 
+    font-size: 14px; 
+    color: #ccc; 
+}
+
+strong { 
+    color: #fff; 
+}
